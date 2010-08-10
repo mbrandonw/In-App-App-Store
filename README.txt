@@ -1,1 +1,0 @@
-http://opetopic.com/news/2010/08/09/in-app-app-store-also-intro-to-git-submodules

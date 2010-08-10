@@ -1,5 +1,5 @@
 //
-//  AppDelegate_iPad.h
+//  AppDelegate.h
 //  IAAS
 //
 //  Created by Brandon Williams on 8/9/10.
@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
-@interface AppDelegate_iPad : NSObject <UIApplicationDelegate> {
+@interface AppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	RootViewController *rootViewController;
 }
-
-@property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @end
 

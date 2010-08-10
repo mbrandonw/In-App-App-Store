@@ -1,0 +1,164 @@
+
+body {
+	background-color: #000;
+	font-family: Helvetica;
+	height: 460px;
+}
+
+.rounded {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-bottom-color: black;
+	border-width: 2px;
+}
+
+.intro {
+	margin: 18px 5px 0px 5px;
+	text-indent: 25px;
+	color: white;
+	text-shadow: black 1px 1px 3px;
+	font-size: 17px;
+}
+
+.apptitle {
+	font-size: 12px;
+	color: white;
+	text-shadow: black 1px 1px 3px;
+	width: 57px;
+	text-align: center;
+	line-height: 12px;
+}
+
+.appicon1 {
+	position: absolute;
+	top: 144px;
+	left: 17px;
+}
+.apptitle1 {
+	position: absolute;
+	top: 203px;
+	left: 17px;
+}
+
+.appicon2 {
+	position: absolute;
+	top: 144px;
+	left: 93px;
+}
+.apptitle2 {
+	position: absolute;
+	top: 203px;
+	left: 93px;
+}
+
+.appicon3 {
+	position: absolute;
+	top: 144px;
+	left: 169px;
+}
+.apptitle3 {
+	position: absolute;
+	top: 203px;
+	left: 169px;
+}
+
+.appicon4 {
+	position: absolute;
+	top: 144px;
+	left: 245px;
+}
+.apptitle4 {
+	position: absolute;
+	top: 203px;
+	left: 245px;
+}
+
+.appicon5 {
+	position: absolute;
+	top: 232px;
+	left: 17px;
+}
+.apptitle5 {
+	position: absolute;
+	top: 291px;
+	left: 17px;
+}
+
+.appicon6 {
+	position: absolute;
+	top: 232px;
+	left: 93px;
+}
+.apptitle6 {
+	position: absolute;
+	top: 291px;
+	left: 93px;
+}
+
+.appicon7 {
+	position: absolute;
+	top: 232px;
+	left: 169px;
+}
+.apptitle7 {
+	position: absolute;
+	top: 291px;
+	left: 169px;
+}
+
+.appicon8 {
+	position: absolute;
+	top: 232px;
+	left: 245px;
+}
+.apptitle8 {
+	position: absolute;
+	top: 291px;
+	left: 245px;
+}
+
+.appicon9 {
+	position: absolute;
+	top: 320px;
+	left: 17px;
+}
+.apptitle9 {
+	position: absolute;
+	top: 379px;
+	left: 17px;
+}
+
+.appicon10 {
+	position: absolute;
+	top: 320px;
+	left: 93px;
+}
+.apptitle10 {
+	position: absolute;
+	top: 379px;
+	left: 93px;
+}
+
+.appicon11 {
+	position: absolute;
+	top: 320px;
+	left: 169px;
+}
+.apptitle11 {
+	position: absolute;
+	top: 379px;
+	left: 169px;
+}
+
+.appicon12 {
+	position: absolute;
+	top: 320px;
+	left: 245px;
+}
+.apptitle12 {
+	position: absolute;
+	top: 379px;
+	left: 245px;
+}
+
