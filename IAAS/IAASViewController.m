@@ -8,7 +8,6 @@
 
 #import "IAASViewController.h"
 
-
 @implementation IAASViewController
 
 @synthesize delegate;
@@ -80,7 +79,6 @@
 	// the first time the webview fails to load we will try loading the local version of the IAAS
 	webView.tag++;
 	if (webView.tag == 1) {
-		
 		NSString *html = [NSString stringWithContentsOfFile:[[[NSBundle mainBundle] pathForResource:@"IAAS" ofType:@"bundle"] stringByAppendingPathComponent:@"index.html"] encoding:NSUTF8StringEncoding error:NULL];
 		NSURL *base = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"IAAS" ofType:@"bundle"]];
 		[webView loadHTMLString:html baseURL:base];
@@ -92,6 +90,7 @@
 	// allow following links in the webview
 	if (navigationType == UIWebViewNavigationTypeLinkClicked)
 		[[UIApplication sharedApplication] openURL:[request URL]];
+	
 	return YES;
 }
 #pragma mark -
