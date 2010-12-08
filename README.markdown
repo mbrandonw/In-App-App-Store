@@ -16,7 +16,7 @@ implementation of an IAAS. It features:
 See this blog post for more information:
 
 
-http://opetopic.com/news/2010/08/09/in-app-app-store-also-intro-to-git-submodules
+http://opetopic.com/news/2010/11/24/in-app-app-store-also-intro-to-git-submodules/
 
 (this blog post will go live at a later date...)
 
